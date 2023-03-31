@@ -37,6 +37,7 @@ main {
 .icons {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 header img {
