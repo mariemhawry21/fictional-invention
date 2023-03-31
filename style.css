@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container h1 span {
+    font-weight: 100;
+    color: #979797;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.line
+{
+    display: flex;
+    flex-direction: column;
+}
+.container p {
+    color: hsl(209, 33%, 12%);
+margin-bottom: 20px;
+}
+input {
+    width: 400px;
+    height: 45px;
+    border:1px solid #979797;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+button {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7195f5;
+    color: white;
+    font-weight: 600;
+    box-shadow: 10px 10px 20px #e8edff;
+}
+#hid {
+    color: #e17a8d;
+    display: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.icons svg {
+    fill: hsl(223, 87%, 63%);
+    margin-left: 20px;
+    width: 20px;
+
+}
+.icons svg:hover {
+    fill: white;
+    background-color:hsl(223, 87%, 63%) ;
+    border-radius: 50%;
+    padding: 2px;
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #979797;
+}
